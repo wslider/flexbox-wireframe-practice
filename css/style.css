@@ -1,0 +1,33 @@
+body {
+    background-color: silver;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center; 
+    color: white; 
+    
+}
+header {
+    width:70vw;
+    height: 10vh; 
+    background-color: purple; 
+}
+main {
+    width: 70vw; 
+    background-color: seagreen; 
+}
+main article {
+    width: 80%;
+    height: 15vh; 
+    background-color: red;
+}
+aside {
+    width: 70vw;
+    height: 10vh; 
+    background-color:blue;
+}
+footer {
+    width: 70vw;
+    height: 10vh;  
+    background-color: orange;
+}
