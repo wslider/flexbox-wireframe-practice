@@ -5,29 +5,43 @@ body {
     justify-content: space-evenly;
     align-items:center; 
     color: white; 
-    
-}
+    text-align: center;
+    font-size:3rem; 
+    }
 header {
     width:70vw;
     height: 10vh; 
-    background-color: purple; 
+    border-radius: 5px;
+    background-color: purple;
+    align-self: center;  
 }
 main {
     width: 70vw; 
+    height: 45vh; 
     background-color: seagreen; 
+    border-radius: 5px;
+    display:flex;  
+    flex-direction:column; 
+    align-items:center;
+    justify-content: center;
 }
-main article {
-    width: 80%;
-    height: 15vh; 
+.article {
+    width: 60vw;
+    height: 10vh; 
     background-color: red;
+    border-radius: 5px; 
+    margin-top: 15px; 
+    margin-bottom: 15px;  
 }
 aside {
     width: 70vw;
     height: 10vh; 
     background-color:blue;
+    border-radius:5px;
 }
 footer {
     width: 70vw;
     height: 10vh;  
     background-color: orange;
+    border-radius:5px; 
 }
